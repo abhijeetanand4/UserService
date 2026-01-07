@@ -8,5 +8,7 @@ namespace UserService.Data
             : base(options)
         {
         }
+
+        public DbSet<Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }
